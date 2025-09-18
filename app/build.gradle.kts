@@ -1,14 +1,14 @@
 plugins {
-    alias(libs.plugins.template.android.application)
-    alias(libs.plugins.template.android.config)
+    alias(libs.plugins.stelmusic.android.application)
+    alias(libs.plugins.stelmusic.android.config)
 }
 
 android {
-    namespace = "com.template"
+    namespace = "com.stelmusic"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.template"
+        applicationId = "com.stelmusic"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

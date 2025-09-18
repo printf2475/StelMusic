@@ -261,15 +261,15 @@ module-graph = { id = "com.jraska.module.graph.assertion", version.ref = "module
 android-test = { id = "com.android.test", version.ref = "android-gradle-plugin" }
 room = { id = "androidx.room", version.ref = "room" }
 
-# template plugins
-template-android-application = { id = "template.android.application" }
-template-android-library = { id = "template.android.library" }
-template-android-config = { id = "template.android.config" }
-template-android-compose = { id = "template.android.compose" }
-template-android-hilt = { id = "template.android.hilt" }
-template-android-ktor = { id = "template.android.ktor" }
-template-android-coil = { id = "template.android.coil" }
-template-android-room = { id = "template.android.room" }
-template-android-analytics = { id = "template.android.analytics" }
-template-android-adapty = { id = "template.android.adapty" }
-template-android-feature = { id = "template.android.feature" }
+# stelmusic plugins
+stelmusic-android-application = { id = "stelmusic.android.application" }
+stelmusic-android-library = { id = "stelmusic.android.library" }
+stelmusic-android-config = { id = "stelmusic.android.config" }
+stelmusic-android-compose = { id = "stelmusic.android.compose" }
+stelmusic-android-hilt = { id = "stelmusic.android.hilt" }
+stelmusic-android-ktor = { id = "stelmusic.android.ktor" }
+stelmusic-android-coil = { id = "stelmusic.android.coil" }
+stelmusic-android-room = { id = "stelmusic.android.room" }
+stelmusic-android-analytics = { id = "stelmusic.android.analytics" }
+stelmusic-android-adapty = { id = "stelmusic.android.adapty" }
+stelmusic-android-feature = { id = "stelmusic.android.feature" }

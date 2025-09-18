@@ -1,8 +1,8 @@
-import com.template.convention.setNamespace
+import com.stelmusic.convention.setNamespace
 
 plugins {
-    alias(libs.plugins.template.android.library)
-    alias(libs.plugins.template.android.compose)
+    alias(libs.plugins.stelmusic.android.library)
+    alias(libs.plugins.stelmusic.android.compose)
 }
 
 android {

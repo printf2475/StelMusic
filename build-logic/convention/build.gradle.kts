@@ -3,7 +3,7 @@ plugins {
     `kotlin-dsl-precompiled-script-plugins`
 }
 
-group = "com.template.convention"
+group = "com.stelmusic.convention"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17

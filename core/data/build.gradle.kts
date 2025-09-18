@@ -1,16 +1,16 @@
-import com.template.convention.setNamespace
+import com.stelmusic.convention.setNamespace
 
 plugins {
-    alias(libs.plugins.template.android.library)
-    alias(libs.plugins.template.android.ktor)
-    alias(libs.plugins.template.android.hilt)
+    alias(libs.plugins.stelmusic.android.library)
+    alias(libs.plugins.stelmusic.android.ktor)
+    alias(libs.plugins.stelmusic.android.hilt)
 }
 
 android {
     setNamespace("core.data")
 
     defaultConfig {
-        testInstrumentationRunner = "com.template.core.data.CustomTestRunner"
+        testInstrumentationRunner = "com.stelmusic.core.data.CustomTestRunner"
     }
 }
 

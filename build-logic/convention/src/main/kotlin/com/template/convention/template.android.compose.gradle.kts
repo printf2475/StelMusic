@@ -1,0 +1,3 @@
+import com.template.convention.configureComposeAndroid
+
+configureComposeAndroid()

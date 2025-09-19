@@ -3,7 +3,10 @@ package com.stelmusic.convention
 import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
 import org.gradle.api.Project
 
-enum class LocalProperty
+enum class LocalProperty{
+    YOUTUBE_API_KEY,
+    YOUTUBE_BASE_URL
+}
 
 enum class ManifestProperty
 

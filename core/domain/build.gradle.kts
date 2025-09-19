@@ -17,4 +17,5 @@ dependencies {
     implementation(projects.core.model)
     implementation(projects.core.data)
     implementation(libs.inject)
+    implementation(libs.androidx.paging.common)
 }

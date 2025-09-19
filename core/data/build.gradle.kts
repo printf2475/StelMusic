@@ -18,4 +18,5 @@ dependencies {
     implementation(projects.core.database)
     implementation(projects.core.model)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.androidx.paging.common)
 }

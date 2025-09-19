@@ -7,3 +7,8 @@ plugins {
 android {
     setNamespace("feature.home")
 }
+
+dependencies{
+    implementation(libs.androidx.paging.compose)
+    implementation(libs.androidx.paging.runtime)
+}

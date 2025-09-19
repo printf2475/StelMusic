@@ -6,7 +6,7 @@
 
 
     <application
-        android:name="com.stelmusic.TemplateApplication"
+        android:name="com.stelmusic.StelMusicApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
